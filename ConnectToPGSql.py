@@ -8,7 +8,7 @@ def connect():
     try:
         # read connection parameters
 
-        conn = psycopg2.connect("dbname=TaskBuses user=postgres password=Alicja13a")
+        conn = psycopg2.connect("dbname=TaskBuses user=postgres password=XXX")
 
         # connect to the PostgreSQL server
         print('Connecting to the PostgreSQL database...')
