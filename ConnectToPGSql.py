@@ -1,30 +1,27 @@
-#pip install psycopg2
+#pip install psycopg2-binary
 
 import psycopg2
 
 def connect():
-    """ Connect to the PostgreSQL database server """
+    """ Try Connect to the PostgreSQL database server """
     conn = None
     try:
-        # read connection parameters
-
-        conn = psycopg2.connect("dbname=TaskBuses user=postgres password=XXX")
 
         # connect to the PostgreSQL server
         print('Connecting to the PostgreSQL database...')
 
         conn = psycopg2.connect(
-            database="TaskBuses", user='postgres', password='XXX', host='127.0.0.1', port='5432'
+            database="users", user='mario', password='mario13', host='127.0.0.1', port='5432'
         )
 
         # create a cursor
         cur = conn.cursor()
 
         # execute a statement
-        print('PostgreSQL database buses:')
-        cur.execute('SELECT * FROM buses')
+        print('PostgreSQL database accounts:')
+        cur.execute('SELECT * FROM accounts')
 
-        # display the PostgreSQL database server buses
+        # display the PostgreSQL database server accounts
         #print("Result ", cur.fetchall())
 
         for item in cur.fetchall():
