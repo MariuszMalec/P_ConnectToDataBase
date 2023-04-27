@@ -2,6 +2,7 @@
 # zainstalowa pythons
 # pip install mysql-connector-python
 # przy bledzie autoryzacji mui byc to dodane  auth_plugin='mysql_native_password'
+# database movieDb/Mario@13/Movies
 
 # Only windows
 # zaintstalowac MySql Workbench
