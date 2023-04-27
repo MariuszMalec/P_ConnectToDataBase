@@ -2,7 +2,8 @@
 # zainstalowa pythons
 # pip install mysql-connector-python
 # przy bledzie autoryzacji mui byc to dodane  auth_plugin='mysql_native_password'
-# database movieDb/Mario@13/Movies
+# database movieDb/Mario@13/Alicja@13/Movies
+# in visual studio code: python3 ConnectToMySql.py
 
 # Only windows
 # zaintstalowac MySql Workbench
@@ -15,9 +16,9 @@ from mysql.connector import Error
 try:
     
     connection = mysql.connector.connect(host='localhost',
-                                         database='MySqlCityDb',
+                                         database='movieDb',
                                          user='root',
-                                         password='',
+                                         password='Alicja@13',
                                          auth_plugin='mysql_native_password')  
      
     if connection.is_connected():
