@@ -4,6 +4,7 @@
 # przy bledzie autoryzacji mui byc to dodane  auth_plugin='mysql_native_password'
 # database movieDb/Mario@13/Alicja@13/Movies
 # in visual studio code: python3 ConnectToMySql.py
+# jesli nie dziala to odinstalowac connector i zainstalowac ponownie!
 
 # Only windows
 # zaintstalowac MySql Workbench
