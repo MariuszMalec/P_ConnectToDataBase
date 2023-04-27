@@ -1,4 +1,5 @@
 #pip install psycopg2-binary
+#w visual studio code start : python3 ConnectToPGSql.py
 
 import psycopg2
 
