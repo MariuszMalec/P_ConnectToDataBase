@@ -8,17 +8,20 @@ from mysql.connector import Error
 
 try:
     connection = mysql.connector.connect(host='localhost',
-                                         database='movieDb',
+                                         database='mainappTrackingDb',
                                          user='root',
-                                         password='Alicja@13',
+                                         password='',
                                          auth_plugin='mysql_native_password')
 
-    mySql_Select_Query = """select * from Movies; """
+    mySql_Select_Query = """select * from trainers; """
 
     cursor = connection.cursor()
     result = cursor.execute(mySql_Select_Query)
     record = cursor.fetchall()
-    print("Your connected to database: ", record)
+    #print("Your connected to database: ", record)
+
+    for item in record:
+        print(item)
 
 except mysql.connector.Error as error:
     print("Failed to select table in MySQL: {}".format(error))

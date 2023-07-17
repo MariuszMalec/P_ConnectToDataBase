@@ -7,10 +7,10 @@ warnings.filterwarnings('ignore')
 
 conn = pyodbc.connect('Driver={SQL Server};'
                       'Server=localhost\\SQLEXPRESS;'
-                      'Database=MainAppTrainersEventsDb;'
+                      'Database=mainappTrackingDb;'
                       'Trusted_Connection=yes;')
 
-df = pd.read_sql_query('SELECT * FROM events', conn)
+df = pd.read_sql_query('SELECT * FROM trainers', conn)
 
 print(df)
 print(type(df))

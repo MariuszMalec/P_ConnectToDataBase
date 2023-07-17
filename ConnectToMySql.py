@@ -9,7 +9,7 @@
 # Only windows
 # zaintstalowac MySql Workbench
 # trzeba zainstalowowac dodoatkowoxampp!! i odpalic
-# odpalic MySql Workbench
+# odpalic xxamp, wybrac apache i mysql
 
 import mysql.connector
 from mysql.connector import Error
@@ -17,9 +17,9 @@ from mysql.connector import Error
 try:
     
     connection = mysql.connector.connect(host='localhost',
-                                         database='movieDb',
+                                         database='mainappTrackingDb',
                                          user='root',
-                                         password='Alicja@13',
+                                         password='',
                                          auth_plugin='mysql_native_password')  
      
     if connection.is_connected():

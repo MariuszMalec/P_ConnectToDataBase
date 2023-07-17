@@ -4,7 +4,7 @@ import pyodbc
 
 conn = pyodbc.connect('Driver={SQL Server};'
                       'Server=localhost\\SQLEXPRESS;'
-                      'Database=MainAppTrainersEventsDb;'
+                      'Database=mainappTrackingDb;'
                       'Trusted_Connection=yes;')
 
 cursor = conn.cursor()

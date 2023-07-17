@@ -8,21 +8,23 @@ def connect():
     conn = None
     try:
 
+        databasename = "MainAppTrackingsDb"
+
         # connect to the PostgreSQL server
-        print('Connecting to the PostgreSQL database...')
+        print('Connecting to the PostgreSQL database...' + str(databasename))
 
         conn = psycopg2.connect(
-            database="users", user='mario', password='mario13', host='127.0.0.1', port='5432'
+            database=databasename, user='postgres', password='mario13', host='127.0.0.1', port='5432'
         )
 
         # create a cursor
         cur = conn.cursor()
 
         # execute a statement
-        print('PostgreSQL database accounts:')
-        cur.execute('SELECT * FROM accounts')
+        print('PostgreSQL database trainers:')
+        cur.execute('SELECT * FROM public."Trainers"')
 
-        # display the PostgreSQL database server accounts
+        # display the PostgreSQL database
         #print("Result ", cur.fetchall())
 
         for item in cur.fetchall():
