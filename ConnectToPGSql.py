@@ -14,7 +14,7 @@ def connect():
         print('Connecting to the PostgreSQL database...' + str(databasename))
 
         conn = psycopg2.connect(
-            database=databasename, user='mario', password='mario13', host='127.0.0.1', port='5432'
+            database=databasename, user='postgres', password='mario13', host='127.0.0.1', port='5432'
         )
 
         # create a cursor

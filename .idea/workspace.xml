@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad2dd64b-38b5-4f47-9c6f-63cbb2e29472" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectToMSql.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectToMSql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectToMSqlPandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectToMSqlPandas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConnectToMySql.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectToMySql.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConnectToMySqlSelectQuery.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectToMySqlSelectQuery.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConnectToPGSql.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectToPGSql.py" afterDir="false" />
@@ -31,7 +28,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/source/repos/MariuszMalec/P_ConnectToDataBase&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/source/repos/P_ConnectToDataBase&quot;
   }
 }</component>
   <component name="RunManager">
