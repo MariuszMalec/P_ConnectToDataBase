@@ -8,12 +8,12 @@ from mysql.connector import Error
 
 try:
     connection = mysql.connector.connect(host='localhost',
-                                         database='mainappTrackingDb',
-                                         user='root',
-                                         password='',
+                                         database='MySqlCityDb',
+                                         user='mario',
+                                         password='mario13',
                                          auth_plugin='mysql_native_password')
 
-    mySql_Select_Query = """select * from trainers; """
+    mySql_Select_Query = """select * from City; """
 
     cursor = connection.cursor()
     result = cursor.execute(mySql_Select_Query)
